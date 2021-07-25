@@ -845,7 +845,7 @@ class Raw():
             # page = 25
             aya = False
         elif view == "normal":
-            pass
+            aya = True
         elif view == "full":
             aya = True
         else:  # if view == custom or undefined
